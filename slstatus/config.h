@@ -66,6 +66,6 @@ static const char unknown_str[] = "n/a";
 static const struct arg args[] = {	
 	{ cpu_perc, " %s%% | ", NULL },
 	{ ram_perc, " %s%% | ", NULL },
-	{ battery_perc, " %4% |s ", "BAT0" },
+	{ battery_perc, " %4s% | ", "BAT0" },
 	{ datetime, " %s", "%a %e %b %k:%M"},	
 };

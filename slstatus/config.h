@@ -65,13 +65,13 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {	
 	{ cpu_perc, "CPU: %s%% | ", NULL },
-	{ ram_perc, "RAM: %s%% | ", NULL },
-	{ battery_perc, "BAT: %4s% | ", "BAT0" },
-	{ wifi_perc, "%s%% | ", "wlp2s0" },
-	{ uptime, "%s | ", NULL },
-	{ kernel_release, "%s | ", NULL },
-	{ wifi_essid, "%s | ", "wlp2s0" },
-	{ ipv4, "%s | ", "wlp2s0" },
-	{ username, "%s | ", NULL },
-	{ datetime, "%s", "%a %e %b %k:%M"},	
+		{ ram_perc, "RAM: %s%% | ", NULL },
+		{ battery_perc, "BAT:%4s% | ", "BAT0" },
+		{ wifi_perc, "%s%% | ", "wlp2s0" },
+		{ uptime, "%s | ", NULL },
+		{ kernel_release, "%s | ", NULL },
+		{ wifi_essid, "%s | ", "wlp2s0" },
+		{ ipv4, "%s | ", "wlp2s0" },
+		{ username, "%s | ", NULL },
+		{ datetime, "%s", "%a %e %b %k:%M"},	
 };
